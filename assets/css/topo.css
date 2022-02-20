@@ -1,0 +1,26 @@
+.topo__caixa {
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.topo__titulo {
+    color: var(--neutra_ciano);
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.topo__subtitulo {
+    color: var(--primaria_amarelo);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.topo__texto {
+    color: rgba(173, 173, 173, 0.87);
+    font-size: 1.4rem;
+    line-height: 2rem;
+}

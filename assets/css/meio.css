@@ -1,0 +1,54 @@
+.meio__caixa {
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--neutra_cinza);
+}
+
+.meio__titulo {
+    color: var(--neutra_cinza);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.meio__preco {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.meio__preco__dolar {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.meio__preco__mensal {
+    font-size: 1.5rem;
+    color: var(--neutra_cinza_transparente)
+}
+
+.meio__texto {
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+}
+
+.meio__butao {
+    background-color: var(--primaria_amarelo);
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 1.5rem 3rem;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Karla', sans-serif;
+    transition: 1s all;
+}
+
+.meio__butao:hover {
+    transform: scale(1.1);
+    background-color: goldenrod;
+    cursor: pointer;
+}

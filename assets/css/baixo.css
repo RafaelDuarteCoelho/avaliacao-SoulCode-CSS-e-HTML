@@ -1,0 +1,19 @@
+.baixo__caixa {
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--neutra_cinza);
+}
+
+.baixo__titulo {
+    color: var(--neutra_cinza);
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+.baixo__caixa > p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}

@@ -1,0 +1,7 @@
+:root {
+    --primaria_ciano: hsl(179, 51%, 53%);
+    --primaria_amarelo: hsl(71, 73%, 54%);
+    --neutra_cinza: hsl(204, 43%, 93%);
+    --neutra_cinza_transparente: hsla(203, 44%, 93%, 0.74);
+    --neutra_ciano: hsl(179, 62%, 43%);
+}

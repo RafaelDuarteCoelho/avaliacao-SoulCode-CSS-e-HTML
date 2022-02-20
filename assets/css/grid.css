@@ -1,0 +1,61 @@
+@import url(./base/_reset.css);
+@import url(./base/_variaveis.css);
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+    display: flex;
+}
+
+.box {
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: var(--neutra_cinza)
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: 
+        "topo"
+        "meio"
+        "baixo";
+    grid-auto-rows: 1fr;
+    grid-auto-columns: 1fr;
+    border-radius: 15px;
+    box-shadow: -2px 3px 3px 3px rgba(0, 0, 0, 0.2);
+
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 10px;
+    background:whitesmoke;
+    grid-area: topo;
+    grid-area: 1 / 1 / 4 / 3
+}
+
+.meio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    background:var(--neutra_ciano);
+    grid-area: meio;
+    grid-area: 4 / 1 / 7 / 2
+}
+
+.baixo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 15px;
+    background:var(--primaria_ciano);
+    grid-area: baixo;
+    grid-area: 4 / 2 / 7 / 3
+}
